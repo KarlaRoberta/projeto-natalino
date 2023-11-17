@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #F7C7B9;
+    
+}
+
+.header{
+    margin-bottom: 10%;
+}
+.header h1{
+    margin-top: -3.5%;
+    margin-left: 12%;
+    
+    
+}
+.header img{
+    width: 4%;
+    margin-left: 8%;
+    margin-top: 1%;
+   
+}
+.header ul li{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    float:left; 
+    
+}
+.header li{
+    position: relative;
+    left: 60%;
+    margin-top: -22px;
+    font-size: 20px;
+    padding-left: 40px;
+    
+}
+
+.first_section h1{
+   display: flex;
+   
+   margin-bottom: 10%;
+   margin-left: 8%;
+   margin-top: -18%;
+   font-size: 48px
+   
+}
+.first_section img{
+    margin-left: 50%;
+
+}
