@@ -61,7 +61,7 @@
 
 .first_section img{
     margin-left: 40%;
-    width: 50%;
+    width: 58%;
     margin-top: -80px;
 }
 
@@ -79,4 +79,106 @@
     color: #F9F9F9;
     font-weight: 500;
     font-size: 14px;
+    margin-bottom: 17%;
+}
+
+.secund_section{
+    background-color:#F9F9F9 ;
+    padding: 20px;
+    height: 700px;
+    margin-top: -40px;
+}
+
+.secund_section h1{
+    background-color:#F9F9F9 ;
+    width: 266px;
+    height: 72px;
+    margin-left: 637px;
+    font-weight: 600;
+    size: 58px;
+    line-height: 72px;
+}
+.secund_section h3{
+    background-color: #F9F9F9;
+    width: 520px;
+    height: 48px;
+    margin-left: 481px;
+    font-weight: 400;
+    size: 16pz;
+    line-height: 24px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.images{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    float:left; 
+    position: relative;
+    margin-left: 129px;
+    top: -510px;
+    background-color: #F9F9F9;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.description p{
+    background-color: #F9F9F9;
+    float:left;
+    position: relative;
+    top: -470px;
+    padding-left: 255px;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    
+}
+.description .figuras{
+    margin-left: -80px;
+    
+}
+.presente {
+    position: relative;
+    top: -200px;
+    right: 1190px;
+    text-align: center;
+    background-color: #F9F9F9;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.enfeites{
+    position: absolute;
+    top: 1320px;
+    right: 868px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #F9F9F9;
+}
+.doces{
+    position: absolute;
+    top: 1320px;
+    right: 520px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #F9F9F9;
+    width: 198px;
+    height: 48px;
+}
+.muito_amor{
+    position: absolute;
+    top: 1310px;
+    right: 180px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    background-color: #F9F9F9;
+    width: 198px;
+    height: 72px;
 }
