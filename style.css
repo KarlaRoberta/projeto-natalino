@@ -6,8 +6,12 @@
     background-color: #F7C7B9;
     font-family: 'Poppins', sans-serif;
 }
+.neve{
+    overflow: hidden;
+}
 
 .header{
+    position: relative;
     margin-bottom: 10%;
 }
 .header h1{
@@ -43,6 +47,7 @@
 }
 
 .first_section h1{
+   position: relative;
    display: flex;
    margin-bottom: 10%;
    margin-left: 122px;
@@ -53,6 +58,7 @@
    line-height: 52px;
 }
 .first_section h3{
+    position: relative;
     display: flex;
     padding-left: 120px;
     margin-top: -106px;
@@ -64,12 +70,14 @@
 }
 
 .first_section img{
+    position: relative;
     margin-left: 40%;
     width: 58%;
     margin-top: -80px;
 }
 
 .first_button_doacao{
+    position: relative;
     background-color: #DA2535;
     width: 240px;
     height: 48px;
@@ -93,6 +101,7 @@
 /* secund_section */
 
 .secund_section{
+    position: relative;
     background-color:#F9F9F9 ;
     padding: 20px;
     height: 700px;
@@ -196,6 +205,7 @@
 /* three_section */
 
 .three_section img{
+    position: relative;
     margin-top: -100px;
 }
 
@@ -211,6 +221,7 @@
 }
 
 .three_section h3{
+    position: relative;
     width: 457px;
     height: 72px;
     margin-top: -290px;
@@ -221,6 +232,7 @@
 }
 
 .second_button_doacao{
+    position: relative;
     background-color: #DA2535;
     width: 240px;
     height: 48px;
@@ -239,6 +251,34 @@
 }
 
 .second_button_doacao:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
+/* Efeito de neve caindo */
+
+.snowflakes {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    /* z-index: -1; */
+  }
+  
+  .snowflake {
+    position: absolute;
+    background-color: #fff;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    opacity: 0.7;
+    animation: snowfall linear infinite;
+  }
+  
+  @keyframes snowfall {
+    0% {
+      transform: translateY(0) rotate(0deg);
+    }
+    100% {
+      transform: translateY(100vh) rotate(360deg);
+    }
+  }
