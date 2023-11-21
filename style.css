@@ -21,20 +21,12 @@
     color: #082E23;
     
 }
-.imagem_papai_noel img{
+.imagem_papai_noel{
     width: 4%;
     margin-left: 8%;
     margin-top: 1%;
    
 }
-/* .ramo{
-    
-    top: -500px;
-    width: 50%;
-    margin-top: -80px;
-    position: relative;
-    z-index: -1px;
-} */
 .header ul li{
     display: block;
     text-align: center;
@@ -60,8 +52,8 @@
    position: relative;
    display: flex;
    margin-bottom: 10%;
-   margin-left: 122px;
-   margin-top: -25%;
+   margin-left: 152px;
+   margin-top: -30%;
    width: 400px;
    height: 104px;
    font-size: 48px;
@@ -71,7 +63,7 @@
 .first_section h3{
     position: relative;
     display: flex;
-    padding-left: 120px;
+    padding-left: 152px;
     margin-top: -106px;
     width: 444px;
     height: 48px;
@@ -84,8 +76,8 @@
 
 .first_section img{
     position: relative;
-    margin-left: 40%;
-    width: 58%;
+    margin-left: 59%;
+    width: 35%;
     margin-top: -80px;
     
 }
@@ -96,7 +88,7 @@
     width: 240px;
     height: 48px;
     margin-top: 50px;
-    margin-left: 115px;
+    margin-left: 150px;
     border-radius: 8px;
     border: #DA2535;
     padding: 12px, 32px, 12px, 32px;
@@ -111,7 +103,10 @@
 .first_button_doacao:hover{
     transform: scale(1.2);
 }
-
+.fa-solid {
+    background-color: #DA2535;
+    margin-right: 10px;
+}
 /* secund_section */
 
 .secund_section{
@@ -124,6 +119,7 @@
 }
 
 .secund_section h1{
+    position: relative;
     background-color:#082E23 ;
     width: 266px;
     height: 72px;
@@ -134,6 +130,7 @@
     color: #F9F9F9;
 }
 .secund_section h3{
+    position: relative;
     background-color: #082E23;
     width: 520px;
     height: 48px;
@@ -355,3 +352,7 @@
     background-color: #F9F9F9;
     /* background-color: #da25344d; */
   }
+.icons{
+    position: relative;
+    background-color: aqua;
+}
