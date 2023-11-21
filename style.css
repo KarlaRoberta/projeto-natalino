@@ -337,7 +337,7 @@
     top: -50px;
     background-color: #082E23;
     display: flex;
-    gap: 30px;
+    gap: 61px;
     justify-content: center;
 
   }
@@ -346,13 +346,48 @@
     top: -35px;
     left: 480px;
     display: block;
-    height: 35px;
-    width: 35px;
+    height: 42px;
+    width: 42px;
     border-radius: 50%;
     background-color: #F9F9F9;
-    /* background-color: #da25344d; */
   }
 .icons{
+    margin-top: -80px;
+}
+.icons span{
     position: relative;
-    background-color: aqua;
+    top: -35px;
+    right: 22px;
+    display: flex;
+    text-align: flex-end;
+    justify-content: end;
+    margin-left: 1510px;
+    background-color: #082E23;
+    font-size: 20px;
+    
+}
+.fa-brands {
+    color: #DA2535;
+    background-color: #F9F9F9;
+    margin-right: 44px;
+    margin-left: 40px;
+
+}
+.youtube{
+   position: relative;
+   right: 2px;
+}
+
+.linkedin{
+    position: relative;
+    right: 3px;
+}
+.instagram{
+    position: relative;
+    right: 2px;
+}
+
+.facebook{
+    position: relative;
+    left: 2px;
 }
