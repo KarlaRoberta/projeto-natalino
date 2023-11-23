@@ -49,7 +49,11 @@ html{
     color: #082E23;
     
 }
-.header li:hover{
+.header li a{
+    color: #082E23;
+    text-decoration: none;
+}
+.header a:hover{
     cursor: pointer;
     color: #DA2535;
 }
@@ -545,8 +549,8 @@ html{
         
     }
 
-    /* .three_section img{
-        visibility: hidden;
+    /* #doacao{
+        height: 100px;
     } */
    
     .three_section{
@@ -556,7 +560,7 @@ html{
     
     .three_section h1{
         width: 214px;
-        height: 72px;
+        /* height: 72px; */
         font-weight: 600;
         font-size: 24px;
         line-height: 36px;
@@ -570,7 +574,6 @@ html{
 
     .three_section h3{
         width: 311px;
-        height: 84px;
         font-weight: 400;
         font-size: 14px;
         line-height: 21px;
@@ -587,7 +590,9 @@ html{
         padding-left: 30px;
         padding-right: 30px;
     }
-
+    footer{
+        top: -1780px;
+    }
     footer h3{
         visibility: hidden;
     }
@@ -595,14 +600,36 @@ html{
     .papei_noel_pequeno{
         visibility: hidden;
     }
-
-    footer{
-        background-color: #F7C7B9;
+    .icons{
+        background-color: #082E23;
     }
-
     .circle{
-        
-        left: -500px;
-        background-color: #F7C7B9;
+        gap: 35px;
+        left: -490px;
+        top: -10px;
     }
+    .icons span{
+        left: -1018px;
+        margin-top: 38px;
+    }
+
+    .youtube{
+        right: 29px;
+    }
+
+    .linkedin{
+        right: 55px;
+    }
+
+    .instagram{
+        right: 80px;
+    }
+
+    .facebook{
+       left: -102px;
+    }
+
+    /* .three_section{
+        height: -100px;
+    } */
 }
