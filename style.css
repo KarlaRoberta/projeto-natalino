@@ -6,6 +6,9 @@
     background-color: #F7C7B9;
     font-family: 'Poppins', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 .snow{
     overflow: hidden;
 }
