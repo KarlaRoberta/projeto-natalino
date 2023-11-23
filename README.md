@@ -15,3 +15,4 @@ link: https://karlaroberta.github.io/projeto-natalino/
 ## Doação e contatos:
 ![image](https://github.com/KarlaRoberta/projeto-natalino/assets/96659292/c33d4c74-d0e8-4ed7-93aa-0626887c9f37)
 
+# Responsivo ainda está em construção 🚧
