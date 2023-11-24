@@ -405,6 +405,16 @@ html{
 /* Responsividade */
 
 @media screen and (max-width: 400px) { 
+
+    .three_section{
+        margin: 0;
+        margin: 0px 0px 0px 0px;
+    }
+    body{
+        max-height: 400px;
+        margin: 0px 0px 0px 0px;
+    }
+
     .imagem_papai_noel{
         position: relative;
         right: 10px;
@@ -548,25 +558,23 @@ html{
         height: 36px;
         
     }
-
-    /* #doacao{
-        height: 100px;
-    } */
-   
-    .three_section{
-        /* position: relative; */
-        margin-left: -670px;
+    html{
+        height: 40px;
+    }
+    #doacao img{
+        visibility: hidden;
+    }
+     .three_section{
+        margin: auto;
     }
     
     .three_section h1{
         width: 214px;
-        /* height: 72px; */
         font-weight: 600;
         font-size: 24px;
         line-height: 36px;
-        /* position: relative; */
         top: -1970px;
-        left: 45px;
+        left: -605px;
         display: flex;
         text-align: center;
         
@@ -577,21 +585,20 @@ html{
         font-weight: 400;
         font-size: 14px;
         line-height: 21px;
-        /* position: relative; */
+        left: -655px;
         top: -1660px;
         display: flex;
         text-align: center;
     }
 
     .second_button_doacao{
-        /* position: relative; */
         top: -1660px;
-        left: 32px;
+        left: -612px;
         padding-left: 30px;
         padding-right: 30px;
     }
     footer{
-        top: -1780px;
+        top: -1700px;
     }
     footer h3{
         visibility: hidden;
@@ -609,7 +616,7 @@ html{
         top: -10px;
     }
     .icons span{
-        left: -1018px;
+        left: -1015px;
         margin-top: 38px;
     }
 
@@ -629,7 +636,5 @@ html{
        left: -102px;
     }
 
-    /* .three_section{
-        height: -100px;
-    } */
+   
 }
