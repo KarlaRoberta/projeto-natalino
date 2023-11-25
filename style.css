@@ -121,27 +121,27 @@ html{
 
 .secund_section{
     position: relative;
-    background-color: #082E23;
+    background-color: #F9F9F9;
     padding: 20px;
     height: 700px;
     margin-top: -40px;
-    color: #F9F9F9;
+    color: #082E23;
 }
 
 .secund_section h1{
     position: relative;
-    background-color:#082E23 ;
+    background-color: #F9F9F9 ;
     width: 266px;
     height: 72px;
     margin-left: 637px;
     font-weight: 600;
     size: 58px;
     line-height: 72px;
-    color: #F9F9F9;
+    color:  #082E23;
 }
 .secund_section h3{
     position: relative;
-    background-color: #082E23;
+    background-color: #F9F9F9;
     width: 520px;
     height: 48px;
     margin-left: 481px;
@@ -155,7 +155,18 @@ html{
 }
 
 .images{
-    display: block;
+    position: relative;
+    top: -510px;
+    display: flex;
+    flex-wrap: wrap;
+    float:left; 
+    justify-content: space-around;
+    width: 200px;
+    height: 200px;
+    padding-left: 130px;
+    margin-bottom: 200px;
+    background-color:#F9F9F9;
+    /* display: block;
     text-align: center;
     justify-content: center;
     float:left; 
@@ -164,12 +175,23 @@ html{
     top: -510px;
     background-color:#082E23;
     width: 200px;
-    height: 200px;
+    height: 200px; */
     
 }
 
 .description p{
-    background-color:#082E23;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    float:left; 
+    justify-content: space-around;
+    color: #082E23;
+    font-weight: 600;
+    font-size: 20px;
+    padding-left: 255px;
+    top: -670px;
+    background-color: #F9F9F9;
+    /* background-color:#082E23;
     float:left;
     position: relative;
     top: -470px;
@@ -178,22 +200,34 @@ html{
     line-height: 30px;
     font-weight: 500;
     font-size: 20px;
-    color: #F9F9F9;
+    color: #F9F9F9; */
     
 }
 .description .figuras{
     margin-left: -80px;
     
 }
+
+/* .description h3{
+    position: relative;
+    margin-top: -200px;
+    display: flex;
+    
+    padding-left: 15px;
+    float:left; 
+   
+    font-size: 16px;
+    font-weight: 400;
+} */
 .presente {
     position: relative;
     top: -200px;
     right: 1190px;
     text-align: center;
-    background-color:#082E23;
+    background-color: #F9F9F9;
     font-size: 16px;
     font-weight: 400;
-    color: #F9F9F9;
+    color: #082E23;
 }
 
 .enfeites{
@@ -203,8 +237,8 @@ html{
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    background-color: #082E23;
-    color: #F9F9F9;
+    background-color: #F9F9F9;
+    color:  #082E23;
 }
 .doces{
     position: absolute;
@@ -213,10 +247,10 @@ html{
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    background-color: #082E23;
+    background-color:#F9F9F9;
     width: 198px;
     height: 48px;
-    color: #F9F9F9;
+    color: #082E23;
 }
 .muito_amor{
     position: absolute;
@@ -225,22 +259,26 @@ html{
     text-align: center;
     font-size: 16px;
     font-weight: 400;
-    background-color: #082E23;
+    background-color: #F9F9F9;
     width: 198px;
     height: 72px;
-    color: #F9F9F9;
-}
+    color: #082E23;
+} 
 
 /* three_section */
+.three_section{
+    width: 200px;
+    height: 100px;
+}
 
 .three_section img{
     position: relative;
-    margin-top: -100px;
+    margin-top: -380px;
 }
 
 .three_section h1{
     width: 488px;
-    height: 104px;
+    /* height: 104px; */
     position: relative;
     top: -330px;
     margin-left: 706px;
@@ -252,8 +290,9 @@ html{
 .three_section h3{
     position: relative;
     width: 457px;
-    height: 72px;
-    margin-top: -290px;
+    /* height: 72px; */
+    top: -270px;
+    /* margin-top: -290px; */
     margin-left: 706px;
     font-weight: 500;
     font-size: 16px;
@@ -262,10 +301,11 @@ html{
 
 .second_button_doacao{
     position: relative;
+    top: -200px;
     background-color: #DA2535;
     width: 240px;
     height: 48px;
-    margin-top: 30px;
+    /* margin-top: -80px; */
     margin-left: 705px;
     border-radius: 8px;
     border: #DA2535;
@@ -275,7 +315,7 @@ html{
     color: #F9F9F9;
     font-weight: 500;
     font-size: 14px;
-    margin-bottom: 17%;
+    /* margin-bottom: 17%; */
     transition: transform 0.3s ease-in-out;
 }
 
@@ -316,20 +356,25 @@ html{
 
   footer{
     position: relative;
-    background-color: #082E23;
+    margin-top: 390px;
     height: 100px;
+    /* top: 320px; */
+    background-color: #082E23;
+    
   }
 
   footer h3{
-    position: relative;
-    top: -50px;
-    left: 200px;
+    position: absolute;
+    margin-top: -60px;
+    /* top: 32px; */
+    left: 180px;
+    /* left: -1100px; */
     background-color: #082E23;
-    width: 123px;
-    height: 36px;
+    /* width: 123px; */
+    /* height: 36px; */
     font-weight: 500;
     font-size: 24px;
-    line-height: 36px;
+    /* line-height: 36px; */
     color: #F9F9F9;
 
   }
@@ -338,36 +383,38 @@ html{
     position: relative;
     background-color: #082E23;
     width: 4%;
-    margin-left: 112px;
+    /* margin-left: -1220px; */
+    margin-left: -360px;
     margin-top: 20px;
   }
 
   .circle{
-    position: relative;
-    top: -50px;
-    background-color: #082E23;
     display: flex;
+    flex-wrap: wrap;
+    float:left; 
+    justify-content: space-around;
     gap: 61px;
-    justify-content: center;
-
+    
+    /* background-color: #082E23; */
+   
   }
   .circle span{
     position: relative;
-    top: -35px;
-    left: 480px;
-    display: block;
+    top: 22px;
+    left: 950px;
+    /* left: 480px; */
+    /* margin-left: 20px; */
     height: 42px;
     width: 42px;
     border-radius: 50%;
     background-color: #F9F9F9;
   }
-.icons{
-    margin-top: -80px;
-}
+  
 .icons span{
     position: relative;
-    top: -35px;
-    right: 22px;
+    /* top: -52px; */
+    margin-top: -52px;
+    right: 82px;
     display: flex;
     text-align: flex-end;
     justify-content: end;
@@ -400,7 +447,7 @@ html{
 .facebook{
     position: relative;
     left: 2px;
-}
+}  
 
 /* Responsividade */
 
